@@ -1,0 +1,67 @@
+body{
+    background-color: azure;
+}
+
+.selected {
+    background-color: rgb(202, 199, 199);
+    font-size: 30px;
+}
+
+.board td{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 0;
+    cursor: pointer;
+    outline: solid black;
+    background-color: rgb(165, 158, 158);   
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.level{
+    margin: auto;
+}
+
+.radio-botton {
+    font-size: 30px;
+}
+
+.smiley {
+    font-size: 70px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.counter{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+}
+.button-start {
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+.button-start:hover {
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(190, 131, 63);
+}
