@@ -14,37 +14,50 @@ body{
     font-size: 0;
     cursor: pointer;
     outline: solid black;
-    background-color: rgb(165, 158, 158);   
+    background-color: rgb(165, 158, 158);
+    font-weight:800
 }
 
 table{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 h1 {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 footer{
     text-align: center;
     margin-top: 20px;
+    font-size: 40px;
 }
 
 .level{
     margin: auto;
+    background-color: rgba(144, 199, 255, 0.301);
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .radio-botton {
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight:500
 }
 
 .smiley {
     font-size: 70px;
     text-align: center;
     transition: 0.2s;
+    margin-bottom: 30px;
 }
 
 .counter{
@@ -57,6 +70,11 @@ footer{
     height: 60px;
     font-size: 20px;
     background-color: bisque;
+    margin-left: 46%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10%;
+    cursor: pointer;
 }
 
 .button-start:hover {
@@ -64,4 +82,23 @@ footer{
     height: 60px;
     font-size: 20px;
     background-color: rgb(190, 131, 63);
+}
+
+.lives {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.modal {
+    background-color: coral;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10%;
+    padding: 20px;
+    margin:auto;
+    display: none;
+    text-align: center;
+    transition: 0.2s;
 }

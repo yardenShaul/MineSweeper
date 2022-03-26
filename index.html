@@ -9,20 +9,22 @@
 
     <body>
         <h1>Mine Sweeper</h1>
-        <div class="smiley">🙂</div>
         <div class="level">
             <form class="radio-botton">
                 <p>Chose your level:</p>
                   <input type="radio" id="4" name="Choose_your_level" value="4" checked="choseLevel(this)">
-                  <label for="html">Beginner(4 * 4)</label><br>
+                  <label for="html">Beginner (4 * 4)</label><br>
                   <input type="radio" id="8" name="Choose_your_level" value="8" checked="choseLevel(this)">
-                  <label for="css">Medium(8 * 8)</label><br>
+                  <label for="css">Medium (8 * 8)</label><br>
                   <input type="radio" id="12" name="Choose_your_level" value="12" checked="choseLevel(this)">
-                  <label for="javascript">Expert(12 * 12)</label>
+                  <label for="javascript">Expert (12 * 12)</label>
                   <br>  
               </form>
         </div>
-        <div><button class="button-start" onclick="init()">Start game</button></div>
+        <div><button class="button-start" onClick="init();resetLives()">Start game</button></div>
+        <div class="smiley"></div>
+        <div class="lives"></div>
+        <div class="modal">You hit a mine! Be carfule</div>
         <div class="board"></div>
         <script src="js/main.js"></script>
         <script src="js/utils.js"></script>
